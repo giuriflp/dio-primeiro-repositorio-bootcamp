@@ -1,0 +1,46 @@
+git init -> inicia um repositório
+
+git add style.css -> adiciona o style.css ao index do git. Com o git add -A adicionamos todos os arquivos.
+
+git status -> mostra os arquivos que tiveram mudança
+
+git commit -m 'Descrição' -> irá fazer o commit do código adicionando uma mensagem.
+
+windows -> dir // linux -> ls → lista todos os diretórios disponiveis onde nós estamos
+
+cd Windows -> entra na pasta windows
+cd etc -> entra na pasta do linux
+
+ambos sistemas => cd .. → volta um nível de diretório.
+
+cls no windows -> limpa a tela do terminal
+clear no linux -> limpa a tela do terminal
+
+Atalho TAB para autocomplete
+windows & linux -> mkdir nome → cria uma pasta
+
+cd workspace -> entra na pasta workspace
+
+echo hello > hello.txt → a função ECHO ‘repete’ o que escrevemos e lança como output, ao digitarmos > hello.txt estamos direcionando esta função para um arquivo txt chamado hello, ou seja, criando este arquivo.
+
+W - del workspace → deleta apenas os arquivos dentro da pasta, não a pasta em si
+
+W - rmdir workspace → deleta o diretório inteiro, a pasta e tudo o que tem dentro
+
+LINUX -> rm -rf workspace/ -> deleta o diretório e todos os arquivos que tem lá dentro. 
+
+mv nome.arquivo ./destino -> move arquivo para pasta desejada.
+
+git clone url -> clonar repositórios.
+
+==========================================
+
+A sigla SHA significa Secure Hash Algorithm.
+
+A encriptação gera um conjunto de caracteres identificador de 40 dígitos. É uma forma curta de representar um arquivo.
+
+| openss1 sha1 → ele retorna a chave de 40 dígitos.
+
+O git gera um novo código para cada atualização dos arquivos. Caso altere para algo que ja estava, ele vai gerar a mesmsa chave.
+
+
